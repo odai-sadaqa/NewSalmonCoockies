@@ -24,8 +24,8 @@ Shop.prototype.calcCustomersEachHour = function () {
     for (let i = 0; i < hours.length; i++) {
         this.customersEachHour.push(random(this.minCustomers, this.maxCustomers));
     }
-    console.log(this.customersEachHour);
-    console.log(random(this.minCustomer, this.maxCustomer))
+    // console.log(this.customersEachHour);
+    // console.log(random(this.minCustomers, this.maxCustomers))
 }
 
 Shop.prototype.calcCookiesEachHour = function () {
