@@ -1,3 +1,125 @@
+body{
+  background-color: gainsboro;
+}
+
+#Seattle{
+  background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
+  height: 500px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+}
+#Seattle a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+#Seattle button{
+  height: 50px;
+  width: 100px;
+  background-color: tomato;
+}
+
+
+#Tokyo{
+  background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
+  height: 500px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+}
+#Tokyo a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+#Tokyo button{
+  height: 50px;
+  width: 100px;
+  background-color: tomato;
+  display: block;
+}
+
+
+
+#Dubai{
+  background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
+  height: 500px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+}
+#Dubai a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+#Dubai button{
+  height: 50px;
+  width: 100px;
+  background-color: tomato;
+  display: block;
+}
+
+
+#Paris{
+  background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
+  height: 500px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+}
+#Paris a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+#Paris button{
+  height: 50px;
+  width: 100px;
+  background-color: tomato;
+  display: block;
+}
+
+#Lima{
+  background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
+  height: 500px;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+}
+#Lima a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+#Lima button{
+  height: 50px;
+  width: 100px;
+  background-color: tomato;
+  display: block;
+}
+fieldset{
+  background-color: thistle;
+  width: 400px;
+}
+fieldset label{
+  color:whitesmoke;
+  font-size: 20px;
+}
+
+fieldset input{
+  transform-style: flat;
+}
+
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 10px;
+  }
+
+
+  #img{
+    display: inline-block;
+    width:350px;
+    height:250px;
+    padding: 40px;
+    margin: 200px;
   }

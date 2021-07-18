@@ -117,13 +117,68 @@ function makeFooter() {
     lastTh.textContent = totalOfTotal;
 }
 
+
+ let cookiesForm= document.getElementById('form');
+
+ cookiesForm.addEventListener('submit',submitter);
+
+ function submitter(event){
+     event.preventDefault();
+     console.log(event);
+
+     let name= event.target.locationName.value;
+     console.log(name);
+
+     let minCustomers=parseInt(event.target.minCustomers.value);
+     console.log(minCustomers);
+
+     let maxCustomers=parseInt(event.target.maxCustomers.value);
+     console.log(maxCustomers);
+
+     let AvgCookies=parseFloat(event.target.AvgCookies.value);
+     console.log(AvgCookies);
+
+     let addedShop= new Shop (name,minCustomers,maxCustomers,AvgCookies);
+
+     table.textContent="";
+     addedShop.calcCustomersEachHour();
+     addedShop.calcCookiesEachHour();
+    //   addedShop.render();
+
+
+    makeHeader();
+
+    for (let i = 0; i < shopsName.length; i++) {
+    
+        // shopsName[i].calcCustomersEachHour=[];
+        // shopsName[i].calcCookiesEachHour=[];
+        // shopsName[i].totalCookiesPerDay=[];
+        // shopsName[i].calcCustomersEachHour();
+        // shopsName[i].calcCookiesEachHour();
+        shopsName[i].render();
+        // shopsName[i].render();
+    }
+    makeFooter();
+    
+    
+
+console.log(addedShop);
+ }
+
+
+
 makeHeader();
+
 for (let i = 0; i < shopsName.length; i++) {
+
+   
     shopsName[i].calcCustomersEachHour();
     shopsName[i].calcCookiesEachHour();
     shopsName[i].render();
+    // shopsName[i].render();
 }
 makeFooter();
+
 
 
 
