@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<button onclick="window.location.href='index.html';"> Go to index pages</button>
-  
+
+
 <body>
-    <p>salmon coockies</p>
-    <div id = 'parent'></div>
+
+    <header></header>
+<main>
+    <button onclick="window.location.href='index.html';"> Go to index pages</button>
+    <br>
+    <br>
+    <form id="form">
+        <fieldset>
+            <label for="locationName">locationName</label>
+            <input type="text" name="locationName" id="locationName">
+            <br>
+            <br>
+            <label for="minCustomers">minCustomers</label>
+            <input type="number" name="minCustomers" id="minCustomers"><br><br>
+
+            <label for="maxCustomers">maxCustomers</label>
+            <input type="number" name="maxCustomers" id="maxCustomers"><br><br>
+
+            <label for="AvgCookies">AvgCookies</label>
+            <input type="float" name="AvgCookies" id="AvgCookies"><br><br>
+
+            <input type="submit" value="Add New Shop  ">
+        </fieldset>
+    </form>
+    <h1>salmon coockies Shops</h1>
+    <div id='parent'></div>
     <!-- <h2>Seatttle</h2>
     <ul id= "Seatttle"></ul> -->
 
-    <div>
+
+
+    <div id="img">
         <img src="img/chinook.jpg" alt="chinook">
         <img src="img/cutter.jpeg" alt="cutter">
         <img src="img/family.jpg" alt="family">
@@ -25,8 +52,11 @@
         <img src="img/salmon.png" alt="salmon">
         <img src="img/shirt.jpg" alt="shirt">
     </div>
-
+</main>
+<footer>
     
+</footer>
     <script src=app.js></script>
 </body>
+
 </html>
