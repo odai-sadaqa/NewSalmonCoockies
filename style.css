@@ -2,12 +2,40 @@ body{
   background-color: gainsboro;
 }
 
+header{
+  height: 100px;
+  background-color: blanchedalmond;
+  display:block;
+  width:70%;
+  padding:auto;
+  margin: auto;
+}
+header h1{
+  text-align: center;
+  font-family: 'Zilla Slab Highlight', cursive;
+  padding-top: 20px;
+  
+}
+
+/* header ul li{
+  display: inline;
+  float:right;
+} */
+
+#Seattle h2{
+  font-family: 'Zilla Slab Highlight', cursive;
+}
 #Seattle{
   background-image: url(https://www.jordanyp.com/img/cats/restaurants.jpg);
   height: 500px;
   width: 70%;
   color: white;
   font-size: 25px;
+  /* font-family: 'Arial', cursive; */
+  font-family: 'Open Sans', sans-serif;
+  display:block;
+  padding: auto;
+  margin: auto;
 }
 #Seattle a{
   text-decoration: none;
@@ -17,6 +45,8 @@ body{
   height: 50px;
   width: 100px;
   background-color: tomato;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
 }
 
 
@@ -26,6 +56,13 @@ body{
   width: 70%;
   color: white;
   font-size: 25px;
+  padding: auto;
+  margin: auto;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+#Tokyo h2{
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 #Tokyo a{
   text-decoration: none;
@@ -46,10 +83,17 @@ body{
   width: 70%;
   color: white;
   font-size: 25px;
+  padding: auto;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 #Dubai a{
   text-decoration: none;
   color:whitesmoke;
+  display: block;
+}
+#Dubai h2{
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 #Dubai button{
   height: 50px;
@@ -65,6 +109,12 @@ body{
   width: 70%;
   color: white;
   font-size: 25px;
+  padding: auto;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#Paris h2{
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 #Paris a{
   text-decoration: none;
@@ -83,6 +133,12 @@ body{
   width: 70%;
   color: white;
   font-size: 25px;
+  padding: auto;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+#Lima h2{
+  font-family: 'Zilla Slab Highlight', cursive;
 }
 #Lima a{
   text-decoration: none;
@@ -95,17 +151,31 @@ body{
   display: block;
 }
 fieldset{
-  background-color: thistle;
-  width: 400px;
+  background-color: rgb(139, 203, 219);
+  width: 50%;
+  padding:auto;
+  margin: auto;
 }
 fieldset label{
   color:whitesmoke;
-  font-size: 20px;
+  font-size: 40px;
 }
 
-fieldset input{
-  transform-style: flat;
+fieldset input {
+  width: 150px;
+  padding:20px;
 }
+
+#parent h1{
+  text-align: center;
+}
+#parent table{
+  text-align: center;
+  padding:auto;
+  margin: auto;
+}
+
+/*  */
 
 table, th, td {
     border: 1px solid black;
@@ -116,10 +186,18 @@ table, th, td {
   }
 
 
-  #img{
-    display: inline-block;
+  #image{
+    display: block;
+    /* width:500px;
+    height:250px; */
+    padding: auto;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #image img{
+    padding-bottom: 75px;
     width:350px;
     height:250px;
-    padding: 40px;
-    margin: 200px;
+    border:4px solid burlywood;
   }
